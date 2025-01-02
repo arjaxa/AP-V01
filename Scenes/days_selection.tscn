@@ -1,10 +1,21 @@
-[gd_scene format=3 uid="uid://cp8xpukmw5hby"]
+[gd_scene load_steps=2 format=3 uid="uid://cp8xpukmw5hby"]
 
-[node name="Days selection" type="Node2D"]
+[ext_resource type="PackedScene" uid="uid://b2cy4f5abfsvo" path="res://Scenes/DaySelection2.tscn" id="1_qmaki"]
+
+[node name="DaysSelection2" type="Node2D"]
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -128
 
 [node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
 offset_right = 1083.0
 offset_bottom = 2406.0
 color = Color(0, 0, 0, 1)
+
+[node name="DaySelection2" parent="." instance=ExtResource("1_qmaki")]
+offset_left = 288.0
+offset_top = 755.0
+offset_right = 730.0
+offset_bottom = 1190.0
+
+[connection signal="pressed" from="DaySelection2" to="DaySelection2" method="_on_pressed"]

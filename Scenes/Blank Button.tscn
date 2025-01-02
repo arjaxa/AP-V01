@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://pepna5dsdtmg"]
+
+[ext_resource type="Texture2D" uid="uid://74bqyhumma5s" path="res://ui/ui-black-square.png" id="1_dt0xf"]
+
+[node name="Start Button" type="Button"]
+offset_right = 442.0
+offset_bottom = 435.0
+scale = Vector2(1.16, 0.521739)
+icon = ExtResource("1_dt0xf")
