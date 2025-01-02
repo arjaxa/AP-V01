@@ -1,10 +1,33 @@
-[gd_scene format=3 uid="uid://1qyaujmf5ugu"]
+[gd_scene load_steps=3 format=3 uid="uid://1qyaujmf5ugu"]
+
+[ext_resource type="PackedScene" uid="uid://bf8l0trl68x5n" path="res://Scenes/start_button.tscn" id="1_lfje5"]
+[ext_resource type="FontFile" uid="uid://dgqgv0fd6pkk3" path="res://fonts/Roboto-Bold.ttf" id="2_dbh0o"]
 
 [node name="Main" type="Node2D"]
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -128
 
 [node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
 offset_right = 1085.0
 offset_bottom = 2406.0
 color = Color(0, 0, 0, 1)
+
+[node name="Start Button" parent="." instance=ExtResource("1_lfje5")]
+offset_left = 279.0
+offset_top = 1438.0
+offset_right = 721.0
+offset_bottom = 1873.0
+text = "Start"
+clip_text = true
+
+[node name="Label" type="Label" parent="Start Button"]
+layout_mode = 0
+offset_left = 118.103
+offset_top = 126.5
+offset_right = 328.103
+offset_bottom = 250.5
+scale = Vector2(1, 1.46)
+theme_override_fonts/font = ExtResource("2_dbh0o")
+theme_override_font_sizes/font_size = 90
+text = "Start"
