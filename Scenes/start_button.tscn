@@ -1,9 +1,13 @@
 [gd_scene load_steps=2 format=3 uid="uid://bf8l0trl68x5n"]
 
-[ext_resource type="Texture2D" uid="uid://74bqyhumma5s" path="res://ui/ui-black-square.png" id="1_suyjj"]
+[ext_resource type="Texture2D" uid="uid://ut60rbpk60i0" path="res://ui/button-w.png" id="1_inqyf"]
 
 [node name="Start Button" type="Button"]
 offset_right = 442.0
 offset_bottom = 435.0
 scale = Vector2(1.16, 0.521739)
-icon = ExtResource("1_suyjj")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(216.379, 217.779)
+scale = Vector2(3.36901, 2.75251)
+texture = ExtResource("1_inqyf")
