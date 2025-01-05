@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bwmpy24ud81hk"]
+
+[ext_resource type="Script" path="res://Scripts/VolSelection2.gd" id="1_5rqp7"]
+[ext_resource type="Texture2D" uid="uid://dxjlpxhpk5dja" path="res://ui/black-7252948_1280.webp" id="1_dnabn"]
+
+[node name="VolSelection2" type="Button"]
+offset_right = 442.0
+offset_bottom = 435.0
+scale = Vector2(1.16, 0.521739)
+script = ExtResource("1_5rqp7")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(223.707, 202.208)
+scale = Vector2(0.492322, 1.05716)
+texture = ExtResource("1_dnabn")

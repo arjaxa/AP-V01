@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://8onl0ktse8ka"]
+
+[ext_resource type="Texture2D" uid="uid://dxjlpxhpk5dja" path="res://ui/black-7252948_1280.webp" id="1_aubo5"]
+
+[node name="FullBodySplit" type="Button"]
+offset_right = 442.0
+offset_bottom = 435.0
+scale = Vector2(1.16, 0.521739)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(223.707, 202.208)
+scale = Vector2(0.492322, 1.05716)
+texture = ExtResource("1_aubo5")

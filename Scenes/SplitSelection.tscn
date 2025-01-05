@@ -1,10 +1,33 @@
-[gd_scene format=3 uid="uid://dbt3tmg3hdgml"]
+[gd_scene load_steps=3 format=3 uid="uid://dbt3tmg3hdgml"]
 
-[node name="Days selection" type="Node2D"]
+[ext_resource type="PackedScene" uid="uid://8onl0ktse8ka" path="res://Scenes/FullBodySplitButton.tscn" id="1_gas6y"]
+[ext_resource type="Script" path="res://Scripts/FullBodySplitButton.gd" id="2_4j5oc"]
+
+[node name="SplitSelection" type="Node2D"]
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -128
 
 [node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
 offset_right = 1083.0
 offset_bottom = 2406.0
 color = Color(0, 0, 0, 1)
+
+[node name="FullBodySplit" parent="." instance=ExtResource("1_gas6y")]
+offset_left = 274.0
+offset_top = 563.0
+offset_right = 716.0
+offset_bottom = 998.0
+text = "Full Body Split"
+script = ExtResource("2_4j5oc")
+
+[node name="Label" type="Label" parent="FullBodySplit"]
+layout_mode = 0
+offset_left = 4.31035
+offset_top = 132.25
+offset_right = 683.31
+offset_bottom = 269.25
+theme_override_font_sizes/font_size = 100
+text = "Full Body"
+
+[connection signal="pressed" from="FullBodySplit" to="FullBodySplit" method="_on_pressed"]
