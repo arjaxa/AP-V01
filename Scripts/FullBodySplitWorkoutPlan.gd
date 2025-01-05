@@ -12,11 +12,11 @@ var exercises = {
 }
 
 #arrays for sets and reps
-var sets_options = [3, 4, 5]  # Example set options
-var reps_options = [8, 10, 12, 15]  # Example rep options
+var sets_options = [3, 4, 5]  
+var reps_options = [8, 10, 12, 15]  
 
-# Reference to the Label node
-@onready var workout_label = $Label  # Adjust path based on your node hierarchy
+#reference to the Label node
+@onready var workout_label = $Label  
 
 func _ready():
 	generate_workout_plan()
@@ -31,19 +31,19 @@ func generate_workout_plan():
 		var selected_exercises = get_random_exercises(exercises[muscle_group], 2)
 		
 		for exercise in selected_exercises:
-			# Select random sets and reps
+			#select random sets and reps
 			var sets = select_random(sets_options)
 			var reps = select_random(reps_options)
 			workout_plan += str(exercise) + ": " + str(sets) + " sets of " + str(reps) + " reps\n"
 		workout_plan += "\n"
 	
-	workout_label.text = workout_plan  # Display workout plan in the label
+	workout_label.text = workout_plan  #display workout plan in the label
 
 #select random exercises from a list
 func get_random_exercises(exercise_list: Array, count: int) -> Array:
-	var shuffled_list = exercise_list.duplicate()  # Duplicate the list to avoid modifying the original
-	shuffled_list.shuffle()  # Shuffle the duplicated list
-	return shuffled_list.slice(0, count)  # Return the first 'count' exercises
+	var shuffled_list = exercise_list.duplicate()  #duplicate the list to avoid modifying the original
+	shuffled_list.shuffle()  #Shuffle the duplicated list
+	return shuffled_list.slice(0, count)  #return the first 'count' exercises
 
 #select random values from a list
 func select_random(options: Array) -> int:
