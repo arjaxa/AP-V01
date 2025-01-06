@@ -2,17 +2,18 @@ extends Control
 
 #arrays for exercises
 var exercises = {
-	"1.": ["Bench Press", "Push Ups", "Dumbbell Flyes", "Chest Dips"],
-	"2.": ["Pull Ups", "Bent Over Rows", "Deadlifts", "Lat Pulldowns"],
-	"3.": ["Squats", "Leg Press", "Lunges", "Leg Curls"],
-	"4.": ["Shoulder Press", "Lateral Raises", "Front Raises", "Shrugs"],
-	"5.": ["Tricep Dips", "Skull Crushers", "Tricep Extensions", "Close Grip Bench Press"],
-	"6.": ["Bicep Curls", "Hammer Curls", "Chin Ups", "Concentration Curls"],
-	"7.": ["Planks", "Crunches", "Leg Raises", "Russian Twists"]
+	"1.": ["Barbell squats", "Leg press", "Smith squats", "Leg extensions"],
+	"2.": ["Barbell chest press", "Dumbbell chest press", "Push ups", "Chest press machine"],
+	"3.": ["Lat pull downs", "Barbell rows", "Machine rows", "Single arm dumbbell row"],
+	"4.": ["Dumbbell lunge", "Dumbbell deadlift", "Lying hamstring curl", "Dumbbell romanian deadlift"],
+	"5.": ["Dumbbell shoulder press (seated)", "Shoulder press machine", "Dumbbell lateral raise", "Dumbbell reverse fly"],
+	"6.": ["Dumbbell tricep kickbacks", "Tricep dips", "Cable tricep pushdown", "Over head tricep extension"],
+	"7.": ["Bicep curls", "Barbell curl", "Concentration curls", "Cable bicep curls"],
+	"8.": ["Plank", "Leg raise", "Mountain climbers", "Russian twists"]
 }
 
 #arrays for sets and reps
-var sets_options = [3, 4, 5]  
+var sets_options = [3, 4]  
 var reps_options = [8, 10, 12, 15]  
 
 #reference to the Label node
@@ -27,8 +28,8 @@ func generate_workout_plan():
 	for muscle_group in exercises.keys():
 		workout_plan += muscle_group 
 		
-		#Select 2 random exercises
-		var selected_exercises = get_random_exercises(exercises[muscle_group], 2)
+		#Select random exercises
+		var selected_exercises = get_random_exercises(exercises[muscle_group], 1)
 		
 		for exercise in selected_exercises:
 			#select random sets and reps
