@@ -2,13 +2,13 @@ extends Control
 
 #arrays for exercises
 var exercises = {
-	"Chest": ["Bench Press", "Push Ups", "Dumbbell Flyes", "Chest Dips"],
-	"Back": ["Pull Ups", "Bent Over Rows", "Deadlifts", "Lat Pulldowns"],
-	"Legs": ["Squats", "Leg Press", "Lunges", "Leg Curls"],
-	"Shoulders": ["Shoulder Press", "Lateral Raises", "Front Raises", "Shrugs"],
-	"Triceps": ["Tricep Dips", "Skull Crushers", "Tricep Extensions", "Close Grip Bench Press"],
-	"Biceps": ["Bicep Curls", "Hammer Curls", "Chin Ups", "Concentration Curls"],
-	"Abs": ["Planks", "Crunches", "Leg Raises", "Russian Twists"]
+	"1.": ["Bench Press", "Push Ups", "Dumbbell Flyes", "Chest Dips"],
+	"2.": ["Pull Ups", "Bent Over Rows", "Deadlifts", "Lat Pulldowns"],
+	"3.": ["Squats", "Leg Press", "Lunges", "Leg Curls"],
+	"4.": ["Shoulder Press", "Lateral Raises", "Front Raises", "Shrugs"],
+	"5.": ["Tricep Dips", "Skull Crushers", "Tricep Extensions", "Close Grip Bench Press"],
+	"6.": ["Bicep Curls", "Hammer Curls", "Chin Ups", "Concentration Curls"],
+	"7.": ["Planks", "Crunches", "Leg Raises", "Russian Twists"]
 }
 
 #arrays for sets and reps
@@ -25,7 +25,7 @@ func generate_workout_plan():
 	var workout_plan = ""
 	
 	for muscle_group in exercises.keys():
-		workout_plan += muscle_group + ":\n"
+		workout_plan += muscle_group 
 		
 		#Select 2 random exercises
 		var selected_exercises = get_random_exercises(exercises[muscle_group], 2)
@@ -34,7 +34,7 @@ func generate_workout_plan():
 			#select random sets and reps
 			var sets = select_random(sets_options)
 			var reps = select_random(reps_options)
-			workout_plan += str(exercise) + ": " + str(sets) + " sets of " + str(reps) + " reps\n"
+			workout_plan += str(exercise) + "      " + str(sets) + " x " + str(reps) + "\n"
 		workout_plan += "\n"
 	
 	workout_label.text = workout_plan  #display workout plan in the label
