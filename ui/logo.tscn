@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dt3hh28guvyph"]
+
+[ext_resource type="Texture2D" uid="uid://byr1f2q8ek8jl" path="res://ui/arislogo.png" id="1_o8pin"]
+
+[node name="Logo" type="Sprite2D"]
+texture = ExtResource("1_o8pin")

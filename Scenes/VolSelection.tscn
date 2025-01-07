@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://cp8xpukmw5hby"]
+[gd_scene load_steps=3 format=3 uid="uid://cp8xpukmw5hby"]
 
 [ext_resource type="PackedScene" uid="uid://bwmpy24ud81hk" path="res://Scenes/VolSelection2.tscn" id="1_u80ik"]
+[ext_resource type="PackedScene" uid="uid://c1eskhdl6vgfg" path="res://ui/logo-mini.tscn" id="2_686iy"]
 
 [node name="VolSelection" type="Node2D"]
 
@@ -26,5 +27,7 @@ offset_right = 391.138
 offset_bottom = 304.833
 theme_override_font_sizes/font_size = 100
 text = "2 Days"
+
+[node name="Logo-mini" parent="." instance=ExtResource("2_686iy")]
 
 [connection signal="pressed" from="VolSelection2" to="VolSelection2" method="_on_pressed"]

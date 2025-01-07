@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://c1eskhdl6vgfg"]
+
+[ext_resource type="Texture2D" uid="uid://byr1f2q8ek8jl" path="res://ui/arislogo.png" id="1_vomy7"]
+
+[node name="Logo-mini" type="Sprite2D"]
+position = Vector2(147.003, 127)
+scale = Vector2(0.821192, 0.821192)
+texture = ExtResource("1_vomy7")

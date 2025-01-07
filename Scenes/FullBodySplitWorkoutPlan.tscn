@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://b6ef0uu0sr7nh"]
+[gd_scene load_steps=3 format=3 uid="uid://b6ef0uu0sr7nh"]
 
 [ext_resource type="Script" path="res://Scripts/FullBodySplitWorkoutPlan.gd" id="1_igspn"]
+[ext_resource type="PackedScene" uid="uid://c1eskhdl6vgfg" path="res://ui/logo-mini.tscn" id="2_qr8ag"]
 
 [node name="FullBodySplitWorkoutPlan" type="Control"]
 layout_mode = 3
@@ -21,3 +22,5 @@ offset_top = 262.0
 offset_right = 40.0
 offset_bottom = 331.0
 theme_override_font_sizes/font_size = 50
+
+[node name="Logo-mini" parent="." instance=ExtResource("2_qr8ag")]
