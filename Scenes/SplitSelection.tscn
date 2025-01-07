@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://dbt3tmg3hdgml"]
+[gd_scene load_steps=5 format=3 uid="uid://dbt3tmg3hdgml"]
 
 [ext_resource type="PackedScene" uid="uid://c1eskhdl6vgfg" path="res://ui/logo-mini.tscn" id="1_55tua"]
 [ext_resource type="PackedScene" uid="uid://8onl0ktse8ka" path="res://Scenes/FullBodySplitButton.tscn" id="1_gas6y"]
 [ext_resource type="Script" path="res://Scripts/FullBodySplitButton.gd" id="2_4j5oc"]
+[ext_resource type="Script" path="res://Scripts/2Day-SplitButton.gd" id="4_o2huv"]
 
 [node name="SplitSelection" type="Node2D"]
 
@@ -39,7 +40,7 @@ offset_top = 866.0
 offset_right = 716.0
 offset_bottom = 1301.0
 text = "Full Body Split"
-script = ExtResource("2_4j5oc")
+script = ExtResource("4_o2huv")
 
 [node name="Label" type="Label" parent="2Day-Split"]
 layout_mode = 0

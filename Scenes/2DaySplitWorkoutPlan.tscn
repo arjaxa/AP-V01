@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://8bi6ept8mj68"]
+
+[ext_resource type="Script" path="res://Scripts/2DaySplitWorkoutPlan.gd" id="1_en2ub"]
+[ext_resource type="PackedScene" uid="uid://c1eskhdl6vgfg" path="res://ui/logo-mini.tscn" id="2_6p0n4"]
+
+[node name="2DaySplitWorkoutPlan" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_en2ub")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -128
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+offset_right = 1083.0
+offset_bottom = 2406.0
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_top = 262.0
+offset_right = 40.0
+offset_bottom = 331.0
+theme_override_font_sizes/font_size = 50
+
+[node name="Logo-mini" parent="." instance=ExtResource("2_6p0n4")]
