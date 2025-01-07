@@ -2,17 +2,25 @@ extends Control
 
 #arrays for day1/day2 
 var exercises_day_1 = {
-	"1.": ["Barbell squats", "Leg press", "Smith squats", "Leg extensions"],
-	"2.": ["Barbell chest press", "Dumbbell chest press", "Push ups", "Chest press machine"],
-	"3.": ["Lat pull downs", "Barbell rows", "Machine rows", "Single arm dumbbell row"],
-	"4.": ["Dumbbell lunge", "Dumbbell deadlift", "Lying hamstring curl", "Dumbbell romanian deadlift"],
-	"5.": ["Dumbbell shoulder press (seated)", "Shoulder press machine", "Dumbbell lateral raise", "Dumbbell reverse fly"],
+	"1.": ["Barbell bench press", "Incline bench press", "Dumbbell bench press", "Smith machine bench press"],
+	"2.": ["Decline dumbbell fly", "Cable fly", "Dumbbell pullover", "Machine rows"],
+	"3.": ["Lat pull downs", "Barbell rows", "Machine rows", "Lat pull-down"],
+	"4.": ["Reverse dumbbell front raise", "Single arm dumbbell row", "DB Upright row", "DB Lateral raise"],
+	"5.": ["Cable lateral raise", "Shoulder press machine", "DB reverse fly", "DB shoulder press (Paralell grip)"],
+	"6.": ["DB Shrug", "Face Pulls", "BB Shrug", "Single arm cable reverse fly"],
+	"7.": ["Standing cable crunch", "Mountain climbers"],
+	"8.": ["Plank", "Side plank", "Leg raise"]
 }
 
 var exercises_day_2 = {
-	"6.": ["Dumbbell tricep kickbacks", "Tricep dips", "Cable tricep pushdown", "Over head tricep extension"],
-	"7.": ["Bicep curls", "Barbell curl", "Concentration curls", "Cable bicep curls"],
-	"8.": ["Plank", "Leg raise", "Mountain climbers", "Russian twists"]
+	"1.": ["Leg extensions", "Lying leg curl", "Leg extension machine", "Lying hamstring curl"],
+	"2.": ["Leg press", "Smith squats", "BB Squats", "Hack squats"],
+	"3.": ["BB deadlifts", "BB Romanian deadlift", "DB Romanian deadlif", "DB Sumo deadlift"],
+	"4.": ["Standing cable hamstring curl", "DB Hamstring curl", "Lying cable hamstring curl"],
+	"5.": ["DB Bicep curls", "Concentration curls", "BB Bicep curls", "Cable bicep curls"],
+	"6.": ["Cable tricep extension", "DB tricep kickbacks", "Standing overhead tricep extension", "Cable rope tricep extension"],
+	"7.": ["DB Hammer curls", "Tricep dips", "Single db curl", "Close grip bench press"],
+	"8.": ["Standing calf raise machine", "Seated calf machine"]
 }
 
 #arrays for sets/reps
@@ -28,7 +36,7 @@ func generate_workout_plan():
 	var workout_plan = ""
 	
 	#Day 1 workout
-	workout_plan += "Day 1 Workout Plan:\n\n"
+	workout_plan += "Day 1:\n\n"
 	for muscle_group in exercises_day_1.keys():
 		workout_plan += muscle_group 
 		
@@ -43,7 +51,7 @@ func generate_workout_plan():
 		workout_plan += "\n"
 	
 	#Day 2 workout
-	workout_plan += "Day 2 Workout Plan:\n\n"
+	workout_plan += "Day 2:\n\n"
 	for muscle_group in exercises_day_2.keys():
 		workout_plan += muscle_group 
 		
