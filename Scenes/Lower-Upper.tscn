@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://cphp24c56s6l0"]
+
+[ext_resource type="Script" path="res://Scripts/lower_upper_WorkoutPlan.gd" id="1_j8a50"]
+[ext_resource type="PackedScene" uid="uid://c1eskhdl6vgfg" path="res://ui/logo-mini.tscn" id="2_47nkv"]
+
+[node name="Lower-Upper" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_j8a50")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -128
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+offset_right = 1083.0
+offset_bottom = 2406.0
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_top = 262.0
+offset_right = 40.0
+offset_bottom = 331.0
+theme_override_font_sizes/font_size = 38
+
+[node name="Logo-mini" parent="." instance=ExtResource("2_47nkv")]

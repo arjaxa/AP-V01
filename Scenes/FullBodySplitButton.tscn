@@ -13,3 +13,5 @@ script = ExtResource("1_bspfx")
 position = Vector2(223.707, 202.208)
 scale = Vector2(0.492322, 1.05716)
 texture = ExtResource("1_aubo5")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

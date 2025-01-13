@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://dbt3tmg3hdgml"]
+[gd_scene load_steps=6 format=3 uid="uid://dbt3tmg3hdgml"]
 
 [ext_resource type="PackedScene" uid="uid://c1eskhdl6vgfg" path="res://ui/logo-mini.tscn" id="1_55tua"]
 [ext_resource type="PackedScene" uid="uid://8onl0ktse8ka" path="res://Scenes/FullBodySplitButton.tscn" id="1_gas6y"]
-[ext_resource type="Script" path="res://Scripts/FullBodySplitButton.gd" id="2_4j5oc"]
 [ext_resource type="Script" path="res://Scripts/2Day-SplitButton.gd" id="4_o2huv"]
+[ext_resource type="Script" path="res://Scripts/Lower-Upper-Button.gd" id="4_ueb7m"]
+[ext_resource type="Script" path="res://Scripts/Push-Pull_button.gd" id="5_dkb6u"]
 
 [node name="SplitSelection" type="Node2D"]
 
@@ -23,7 +24,6 @@ offset_top = 563.0
 offset_right = 716.0
 offset_bottom = 998.0
 text = "Full Body Split"
-script = ExtResource("2_4j5oc")
 
 [node name="Label" type="Label" parent="FullBodySplit"]
 layout_mode = 0
@@ -51,5 +51,34 @@ offset_bottom = 269.25
 theme_override_font_sizes/font_size = 100
 text = "2Day-Split"
 
-[connection signal="pressed" from="FullBodySplit" to="FullBodySplit" method="_on_pressed"]
-[connection signal="pressed" from="2Day-Split" to="2Day-Split" method="_on_pressed"]
+[node name="Lower-Upper" parent="." instance=ExtResource("1_gas6y")]
+offset_left = 274.0
+offset_top = 1165.0
+offset_right = 716.0
+offset_bottom = 1600.0
+script = ExtResource("4_ueb7m")
+
+[node name="Label" type="Label" parent="Lower-Upper"]
+layout_mode = 0
+offset_left = -55.1724
+offset_top = 132.25
+offset_right = 623.828
+offset_bottom = 269.25
+theme_override_font_sizes/font_size = 90
+text = "Lower-Upper"
+
+[node name="Push-Pull" parent="." instance=ExtResource("1_gas6y")]
+offset_left = 274.0
+offset_top = 1467.0
+offset_right = 716.0
+offset_bottom = 1902.0
+script = ExtResource("5_dkb6u")
+
+[node name="Label" type="Label" parent="Push-Pull"]
+layout_mode = 0
+offset_left = 21.5517
+offset_top = 132.25
+offset_right = 700.552
+offset_bottom = 269.25
+theme_override_font_sizes/font_size = 90
+text = "Push-Pull"

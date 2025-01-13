@@ -3,13 +3,14 @@ extends Control
 #day1/day2 
 var exercises_day_1 = {
 	"1.": ["Barbell bench press", "Incline bench press", "Dumbbell bench press", "Smith machine bench press"],
-	"2.": ["Decline dumbbell fly", "Cable fly", "Dumbbell pullover", "Machine rows"],
-	"3.": ["Lat pull downs", "Barbell rows", "Machine rows", "Lat pull-down"],
-	"4.": ["Reverse dumbbell front raise", "Single arm dumbbell row", "DB Upright row", "DB Lateral raise"],
-	"5.": ["Cable lateral raise", "Shoulder press machine", "DB reverse fly", "DB shoulder press (Paralell grip)"],
-	"6.": ["DB Shrug", "Face Pulls", "BB Shrug", "Single arm cable reverse fly"],
-	"7.": ["Standing cable crunch", "Mountain climbers"],
-	"8.": ["Plank", "Side plank", "Leg raise"]
+	"2.": ["Lat pull downs", "Barbell rows", "Machine rows", "Lat pull-down"],
+	"3.": ["DB Fly", "Cable fly", "Incline DB fly", "Decline DB fly"],
+	"4.": ["Reverse grip bb row", "Single arm dumbbell row", "H Machine rows", "V handle lat pull-down"],
+	"5.": ["Cable lateral raise", "DB Lateral raise", "DB reverse fly", "DB shoulder press (Paralell grip)"],
+	"6.": ["Cable tricep extension", "DB tricep kickbacks", "Standing overhead tricep extension"],
+	"7.": ["DB Bicep curls", "Concentration curls", "BB Bicep curls", "Cable bicep curls"],
+	"8.": ["Single arm cable tricep pushdown", "Cable rope tricep pushdown"],
+	"9.": ["Single db bicep curl", "Cable rope bicep curls"]
 }
 
 var exercises_day_2 = {
@@ -17,15 +18,15 @@ var exercises_day_2 = {
 	"2.": ["Leg press", "Smith squats", "BB Squats", "Hack squats"],
 	"3.": ["BB deadlifts", "BB Romanian deadlift", "DB Romanian deadlif", "DB Sumo deadlift"],
 	"4.": ["Standing cable hamstring curl", "DB Hamstring curl", "Lying cable hamstring curl"],
-	"5.": ["DB Bicep curls", "Concentration curls", "BB Bicep curls", "Cable bicep curls"],
-	"6.": ["Cable tricep extension", "DB tricep kickbacks", "Standing overhead tricep extension", "Cable rope tricep extension"],
-	"7.": ["DB Hammer curls", "Tricep dips", "Single db curl", "Close grip bench press"],
-	"8.": ["Standing calf raise machine", "Seated calf machine"]
+	"5.": ["DB Sumo squat", "Leaning forward db lift"],
+	"6.": ["Standing calf raise machine", "Seated calf machine", "Smith standing calf raise"],
+	"7.": ["Mountain climbers", "Plank", "Standing cable crunch"],
+	"8.": ["Side plank", "Leg raises"]
 }
 
 #arrays for sets/reps
 var sets_options = [3, 4]  
-var reps_options = [8, 10, 12, 15]  
+var reps_options = [10, 12, 15]  
 
 @onready var workout_label = $Label  
 
