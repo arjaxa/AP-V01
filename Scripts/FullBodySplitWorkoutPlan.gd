@@ -2,14 +2,14 @@ extends Control
 
 #arrays for exercises
 var exercises = {
-	"1.": ["Barbell squats", "Leg press", "Smith squats", "Leg extensions"],
-	"2.": ["Barbell chest press", "Dumbbell chest press", "Push ups", "Chest press machine"],
-	"3.": ["Lat pull downs", "Barbell rows", "Machine rows", "Single arm dumbbell row"],
-	"4.": ["Dumbbell lunge", "Dumbbell deadlift", "Lying hamstring curl", "Dumbbell romanian deadlift"],
-	"5.": ["Dumbbell shoulder press (seated)", "Shoulder press machine", "Dumbbell lateral raise", "Dumbbell reverse fly"],
-	"6.": ["Dumbbell tricep kickbacks", "Tricep dips", "Cable tricep pushdown", "Over head tricep extension"],
-	"7.": ["Bicep curls", "Barbell curl", "Concentration curls", "Cable bicep curls"],
-	"8.": ["Plank", "Leg raise", "Mountain climbers", "Russian twists"]
+	"1. ": ["Barbell squats", "Leg press", "Smith squats", "Leg extensions"],
+	"2. ": ["Barbell chest press", "Dumbbell chest press", "Push ups", "Chest press machine"],
+	"3. ": ["Lat pull downs", "Barbell rows", "Machine rows", "Single arm dumbbell row"],
+	"4. ": ["Dumbbell lunge", "Dumbbell deadlift", "Lying hamstring curl", "Dumbbell romanian deadlift"],
+	"5. ": ["Dumbbell shoulder press (seated)", "Shoulder press machine", "Dumbbell lateral raise", "Dumbbell reverse fly"],
+	"6. ": ["Dumbbell tricep kickbacks", "Tricep dips", "Cable tricep pushdown", "Over head tricep extension"],
+	"7. ": ["Bicep curls", "Barbell curl", "Concentration curls", "Cable bicep curls"],
+	"8. ": ["Plank", "Leg raise", "Mountain climbers", "Russian twists"]
 }
 
 #arrays for sets and reps

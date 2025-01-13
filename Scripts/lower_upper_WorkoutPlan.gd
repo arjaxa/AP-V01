@@ -2,26 +2,26 @@ extends Control
 
 #day1/day2 
 var exercises_day_1 = {
-	"1.": ["Barbell bench press", "Incline bench press", "Dumbbell bench press", "Smith machine bench press"],
-	"2.": ["Lat pull downs", "Barbell rows", "Machine rows", "Lat pull-down"],
-	"3.": ["DB Fly", "Cable fly", "Incline DB fly", "Decline DB fly"],
-	"4.": ["Reverse grip bb row", "Single arm dumbbell row", "H Machine rows", "V handle lat pull-down"],
-	"5.": ["Cable lateral raise", "DB Lateral raise", "DB reverse fly", "DB shoulder press (Paralell grip)"],
-	"6.": ["Cable tricep extension", "DB tricep kickbacks", "Standing overhead tricep extension"],
-	"7.": ["DB Bicep curls", "Concentration curls", "BB Bicep curls", "Cable bicep curls"],
-	"8.": ["Single arm cable tricep pushdown", "Cable rope tricep pushdown"],
-	"9.": ["Single db bicep curl", "Cable rope bicep curls"]
+	"1. ": ["Barbell bench press", "Incline bench press", "Dumbbell bench press", "Smith machine bench press"],
+	"2. ": ["Lat pull downs", "Barbell rows", "Machine rows", "Lat pull-down"],
+	"3. ": ["DB Fly", "Cable fly", "Incline DB fly", "Decline DB fly"],
+	"4. ": ["Reverse grip bb row", "Single arm dumbbell row", "H Machine rows", "V handle lat pull-down"],
+	"5. ": ["Cable lateral raise", "DB Lateral raise", "DB reverse fly", "DB shoulder press (Paralell grip)"],
+	"6. ": ["Cable tricep extension", "DB tricep kickbacks", "Standing overhead tricep extension"],
+	"7. ": ["DB Bicep curls", "Concentration curls", "BB Bicep curls", "Cable bicep curls"],
+	"8. ": ["Single arm cable tricep pushdown", "Cable rope tricep pushdown"],
+	"9. ": ["Single db bicep curl", "Cable rope bicep curls"]
 }
 
 var exercises_day_2 = {
-	"1.": ["Leg extensions", "Lying leg curl", "Leg extension machine", "Lying hamstring curl"],
-	"2.": ["Leg press", "Smith squats", "BB Squats", "Hack squats"],
-	"3.": ["BB deadlifts", "BB Romanian deadlift", "DB Romanian deadlif", "DB Sumo deadlift"],
-	"4.": ["Standing cable hamstring curl", "DB Hamstring curl", "Lying cable hamstring curl"],
-	"5.": ["DB Sumo squat", "Leaning forward db lift"],
-	"6.": ["Standing calf raise machine", "Seated calf machine", "Smith standing calf raise"],
-	"7.": ["Mountain climbers", "Plank", "Standing cable crunch"],
-	"8.": ["Side plank", "Leg raises"]
+	"1. ": ["Leg extensions", "Lying leg curl", "Leg extension machine", "Lying hamstring curl"],
+	"2. ": ["Leg press", "Smith squats", "BB Squats", "Hack squats"],
+	"3. ": ["BB deadlifts", "BB Romanian deadlift", "DB Romanian deadlif", "DB Sumo deadlift"],
+	"4. ": ["Standing cable hamstring curl", "DB Hamstring curl", "Lying cable hamstring curl"],
+	"5. ": ["DB Sumo squat", "Leaning forward db lift"],
+	"6. ": ["Standing calf raise machine", "Seated calf machine", "Smith standing calf raise"],
+	"7. ": ["Mountain climbers", "Plank", "Standing cable crunch"],
+	"8. ": ["Side plank", "Leg raises"]
 }
 
 #arrays for sets/reps
