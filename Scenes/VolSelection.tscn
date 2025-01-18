@@ -28,6 +28,23 @@ offset_bottom = 304.833
 theme_override_font_sizes/font_size = 100
 text = "2 Days"
 
+[node name="VolSelection3" parent="." instance=ExtResource("1_u80ik")]
+offset_left = 278.0
+offset_top = 1013.0
+offset_right = 720.0
+offset_bottom = 1448.0
+script = null
+
+[node name="Label" type="Label" parent="VolSelection3"]
+layout_mode = 0
+offset_left = 69.8276
+offset_top = 124.583
+offset_right = 386.828
+offset_bottom = 310.583
+theme_override_font_sizes/font_size = 100
+text = "3 Days"
+
 [node name="Logo-mini" parent="." instance=ExtResource("2_686iy")]
 
 [connection signal="pressed" from="VolSelection2" to="VolSelection2" method="_on_pressed"]
+[connection signal="pressed" from="VolSelection3" to="VolSelection3" method="_on_pressed"]
