@@ -1,0 +1,83 @@
+[gd_scene load_steps=3 format=3 uid="uid://7fpvtwve6sbx"]
+
+[ext_resource type="PackedScene" uid="uid://c1eskhdl6vgfg" path="res://ui/logo-mini.tscn" id="1_l7rcx"]
+[ext_resource type="PackedScene" uid="uid://8onl0ktse8ka" path="res://Scenes/FullBodySplitButton.tscn" id="2_8ykqc"]
+
+[node name="SplitSelection3" type="Node2D"]
+
+[node name="Logo-mini" parent="." instance=ExtResource("1_l7rcx")]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -128
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+offset_right = 1083.0
+offset_bottom = 2406.0
+color = Color(0, 0, 0, 1)
+
+[node name="Push-Pull-Leg" parent="." instance=ExtResource("2_8ykqc")]
+offset_left = 274.0
+offset_top = 563.0
+offset_right = 716.0
+offset_bottom = 998.0
+text = "Full Body Split"
+script = null
+
+[node name="Label" type="Label" parent="Push-Pull-Leg"]
+layout_mode = 0
+offset_left = -62.931
+offset_top = 132.25
+offset_right = 616.069
+offset_bottom = 269.25
+theme_override_font_sizes/font_size = 86
+text = "Push-Pull-Leg
+"
+
+[node name="2Day-Split" parent="." instance=ExtResource("2_8ykqc")]
+offset_left = 274.0
+offset_top = 866.0
+offset_right = 716.0
+offset_bottom = 1301.0
+text = "Full Body Split"
+script = null
+
+[node name="Label" type="Label" parent="2Day-Split"]
+layout_mode = 0
+offset_left = -11.2069
+offset_top = 132.25
+offset_right = 667.793
+offset_bottom = 269.25
+theme_override_font_sizes/font_size = 100
+text = "2Day-Split"
+
+[node name="Lower-Upper" parent="." instance=ExtResource("2_8ykqc")]
+offset_left = 274.0
+offset_top = 1165.0
+offset_right = 716.0
+offset_bottom = 1600.0
+script = null
+
+[node name="Label" type="Label" parent="Lower-Upper"]
+layout_mode = 0
+offset_left = -55.1724
+offset_top = 132.25
+offset_right = 623.828
+offset_bottom = 269.25
+theme_override_font_sizes/font_size = 90
+text = "Lower-Upper"
+
+[node name="Push-Pull" parent="." instance=ExtResource("2_8ykqc")]
+offset_left = 274.0
+offset_top = 1467.0
+offset_right = 716.0
+offset_bottom = 1902.0
+script = null
+
+[node name="Label" type="Label" parent="Push-Pull"]
+layout_mode = 0
+offset_left = 21.5517
+offset_top = 132.25
+offset_right = 700.552
+offset_bottom = 269.25
+theme_override_font_sizes/font_size = 90
+text = "Push-Pull"
