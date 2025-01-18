@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://7fpvtwve6sbx"]
+[gd_scene load_steps=4 format=3 uid="uid://7fpvtwve6sbx"]
 
 [ext_resource type="PackedScene" uid="uid://c1eskhdl6vgfg" path="res://ui/logo-mini.tscn" id="1_l7rcx"]
 [ext_resource type="PackedScene" uid="uid://8onl0ktse8ka" path="res://Scenes/FullBodySplitButton.tscn" id="2_8ykqc"]
+[ext_resource type="Script" path="res://Scripts/PPL_split_button.gd" id="3_fxbew"]
 
 [node name="SplitSelection3" type="Node2D"]
 
@@ -21,7 +22,7 @@ offset_top = 563.0
 offset_right = 716.0
 offset_bottom = 998.0
 text = "Full Body Split"
-script = null
+script = ExtResource("3_fxbew")
 
 [node name="Label" type="Label" parent="Push-Pull-Leg"]
 layout_mode = 0
