@@ -2,9 +2,9 @@
 
 [ext_resource type="PackedScene" uid="uid://c1eskhdl6vgfg" path="res://ui/logo-mini.tscn" id="1_55tua"]
 [ext_resource type="PackedScene" uid="uid://8onl0ktse8ka" path="res://Scenes/FullBodySplitButton.tscn" id="1_gas6y"]
-[ext_resource type="Script" path="res://Src/2Day-SplitButton.gd" id="4_o2huv"]
-[ext_resource type="Script" path="res://Src/Lower-Upper-Button.gd" id="4_ueb7m"]
-[ext_resource type="Script" path="res://Src/Push-Pull_button.gd" id="5_dkb6u"]
+[ext_resource type="Script" path="res://Scripts/2Day-SplitButton.gd" id="4_o2huv"]
+[ext_resource type="Script" path="res://Scripts/Lower-Upper-Button.gd" id="4_ueb7m"]
+[ext_resource type="Script" path="res://Scripts/Push-Pull_button.gd" id="5_dkb6u"]
 
 [node name="SplitSelection" type="Node2D"]
 

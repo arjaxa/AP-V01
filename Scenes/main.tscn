@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://1qyaujmf5ugu"]
 
 [ext_resource type="PackedScene" uid="uid://bf8l0trl68x5n" path="res://Scenes/start_button.tscn" id="1_lfje5"]
-[ext_resource type="Script" path="res://Src/start_button.gd" id="2_1mgve"]
+[ext_resource type="Script" path="res://Scripts/start_button.gd" id="2_1mgve"]
 [ext_resource type="FontFile" uid="uid://dgqgv0fd6pkk3" path="res://fonts/Roboto-Bold.ttf" id="2_dbh0o"]
 [ext_resource type="PackedScene" uid="uid://dt3hh28guvyph" path="res://ui/logo.tscn" id="4_ut28m"]
 

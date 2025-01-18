@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://b2cy4f5abfsvo"]
 
 [ext_resource type="Texture2D" uid="uid://74bqyhumma5s" path="res://ui/ui-black-square.png" id="1_54tdn"]
-[ext_resource type="Script" path="res://Src/days_selection_2.gd" id="2_i2qik"]
+[ext_resource type="Script" path="res://Scripts/days_selection_2.gd" id="2_i2qik"]
 [ext_resource type="FontFile" uid="uid://dgqgv0fd6pkk3" path="res://fonts/Roboto-Bold.ttf" id="3_4dal2"]
 
 [node name="DaySelection2" type="Button"]

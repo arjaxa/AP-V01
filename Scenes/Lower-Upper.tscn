@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://cphp24c56s6l0"]
 
-[ext_resource type="Script" path="res://Src/lower_upper_WorkoutPlan.gd" id="1_j8a50"]
+[ext_resource type="Script" path="res://Scripts/lower_upper_WorkoutPlan.gd" id="1_j8a50"]
 [ext_resource type="PackedScene" uid="uid://c1eskhdl6vgfg" path="res://ui/logo-mini.tscn" id="2_47nkv"]
 
 [node name="Lower-Upper" type="Control"]

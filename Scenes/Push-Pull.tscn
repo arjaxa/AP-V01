@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://cncd0daqk5bp7"]
 
-[ext_resource type="Script" path="res://Src/push_pull_workoutPlan.gd" id="1_snpbn"]
+[ext_resource type="Script" path="res://Scripts/push_pull_workoutPlan.gd" id="1_snpbn"]
 [ext_resource type="PackedScene" uid="uid://c1eskhdl6vgfg" path="res://ui/logo-mini.tscn" id="2_6dikj"]
 
 [node name="Push-Pull" type="Control"]

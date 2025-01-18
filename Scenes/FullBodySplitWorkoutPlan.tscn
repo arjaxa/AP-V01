@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://b6ef0uu0sr7nh"]
 
-[ext_resource type="Script" path="res://Src/FullBodySplitWorkoutPlan.gd" id="1_uqj0g"]
+[ext_resource type="Script" path="res://Scripts/FullBodySplitWorkoutPlan.gd" id="1_uqj0g"]
 [ext_resource type="PackedScene" uid="uid://c1eskhdl6vgfg" path="res://ui/logo-mini.tscn" id="2_qr8ag"]
 
 [node name="FullBodySplitWorkoutPlan" type="Control"]
