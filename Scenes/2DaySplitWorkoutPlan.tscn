@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://8bi6ept8mj68"]
 
-[ext_resource type="Script" path="res://Scripts/2DaySplitWorkoutPlan.gd" id="1_en2ub"]
+[ext_resource type="Script" path="res://Src/2DaySplitWorkoutPlan.gd" id="1_en2ub"]
 [ext_resource type="PackedScene" uid="uid://c1eskhdl6vgfg" path="res://ui/logo-mini.tscn" id="2_6p0n4"]
 
 [node name="2DaySplitWorkoutPlan" type="Control"]

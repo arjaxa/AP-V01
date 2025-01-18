@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://c1eskhdl6vgfg" path="res://ui/logo-mini.tscn" id="1_l7rcx"]
 [ext_resource type="PackedScene" uid="uid://8onl0ktse8ka" path="res://Scenes/FullBodySplitButton.tscn" id="2_8ykqc"]
-[ext_resource type="Script" path="res://Scripts/PPL_split_button.gd" id="3_fxbew"]
+[ext_resource type="Script" path="res://Src/PPL_split_button.gd" id="3_fxbew"]
 
 [node name="SplitSelection3" type="Node2D"]
 
