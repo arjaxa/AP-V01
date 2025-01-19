@@ -25,7 +25,7 @@ var exercises_day_2 = {
 
 #arrays for sets/reps
 var sets_options = [3, 4]  
-var reps_options = [8, 10, 12, 15]  
+var reps_options = [8, 10, 12, 15]   
 
 @onready var workout_label = $Label  
 
