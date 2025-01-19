@@ -27,7 +27,7 @@ var exercises_day_2 = {
 var sets_options = [3, 4]  
 var reps_options = [8, 10, 12, 15]  
 
-@onready var workout_label = $Label  
+@onready var workout_label = $Label    
 
 func _ready():
 	generate_workout_plan()
