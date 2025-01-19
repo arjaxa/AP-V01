@@ -1,12 +1,12 @@
 [gd_scene load_steps=3 format=3 uid="uid://b6ef0uu0sr7nh"]
 
-[ext_resource type="Script" path="res://Scripts/PPLSplitWorkoutPlan.gd" id="1_uqj0g"]
+[ext_resource type="Script" path="res://Scripts/full_body_split_workout_plan.gd" id="1_ghyr0"]
 [ext_resource type="PackedScene" uid="uid://c1eskhdl6vgfg" path="res://ui/logo-mini.tscn" id="2_qr8ag"]
 
 [node name="FullBodySplitWorkoutPlan" type="Control"]
 layout_mode = 3
 anchors_preset = 0
-script = ExtResource("1_uqj0g")
+script = ExtResource("1_ghyr0")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 layer = -128
