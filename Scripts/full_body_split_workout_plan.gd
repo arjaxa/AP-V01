@@ -11,7 +11,7 @@ var exercises_full_body = {
 	"8. ": ["Plank", "Side plank", "Leg raise"],# bi/forearm?
 	"9. ": ["Leg extensions", "Lying leg curl", "Leg extension machine", "Lying hamstring curl"],
 	"10. ": ["Leg press", "Smith squats", "BB Squats", "Hack squats"] # test/ cl
-}
+}# 8-10 w / 2-3 ss/ m 4 s
 
 # sets/reps
 var sets_options = [3, 4]  
