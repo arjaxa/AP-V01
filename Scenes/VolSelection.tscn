@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://cp8xpukmw5hby"]
+[gd_scene load_steps=5 format=3 uid="uid://cp8xpukmw5hby"]
 
 [ext_resource type="PackedScene" uid="uid://bwmpy24ud81hk" path="res://Scenes/VolSelection2.tscn" id="1_u80ik"]
 [ext_resource type="Script" path="res://Scripts/vol_selection_3.gd" id="2_8mson"]
 [ext_resource type="PackedScene" uid="uid://c1eskhdl6vgfg" path="res://ui/logo-mini.tscn" id="2_686iy"]
+[ext_resource type="Script" path="res://Scripts/vol_selection_4.gd" id="3_hj8s8"]
 
 [node name="VolSelection" type="Node2D"]
 
@@ -50,7 +51,7 @@ offset_left = 278.0
 offset_top = 1290.0
 offset_right = 720.0
 offset_bottom = 1725.0
-script = null
+script = ExtResource("3_hj8s8")
 
 [node name="Label" type="Label" parent="VolSelection4"]
 layout_mode = 0
