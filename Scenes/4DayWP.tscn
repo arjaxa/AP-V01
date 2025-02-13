@@ -1,6 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://c5uf675n3ccnt"]
+[gd_scene load_steps=4 format=3 uid="uid://c5uf675n3ccnt"]
 
 [ext_resource type="PackedScene" uid="uid://c1eskhdl6vgfg" path="res://ui/logo-mini.tscn" id="2_eagf3"]
+[ext_resource type="PackedScene" uid="uid://dx1ni2wu5bd7" path="res://Scenes/D1BTN.tscn" id="2_yc38v"]
+[ext_resource type="Script" path="res://Scenes/day1_4.gd" id="3_ltkd7"]
 
 [node name="4DayWP" type="Control"]
 layout_mode = 3
@@ -15,6 +17,7 @@ offset_bottom = 2406.0
 color = Color(0, 0, 0, 1)
 
 [node name="Label" type="Label" parent="."]
+visible = false
 layout_mode = 0
 offset_top = 262.0
 offset_right = 1077.0
@@ -23,3 +26,22 @@ theme_override_font_sizes/font_size = 50
 horizontal_alignment = 1
 
 [node name="Logo-mini" parent="." instance=ExtResource("2_eagf3")]
+
+[node name="Day1_4" parent="." instance=ExtResource("2_yc38v")]
+layout_mode = 0
+offset_left = 260.0
+offset_top = 610.0
+offset_right = 702.0
+offset_bottom = 1045.0
+script = ExtResource("3_ltkd7")
+
+[node name="Label" type="Label" parent="Day1_4"]
+layout_mode = 0
+offset_left = 71.5517
+offset_top = 120.75
+offset_right = 393.552
+offset_bottom = 285.75
+theme_override_font_sizes/font_size = 120
+text = "Day 1"
+
+[connection signal="pressed" from="Day1_4" to="Day1_4" method="_on_pressed"]
