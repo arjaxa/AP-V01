@@ -1,12 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://c5uf675n3ccnt"]
+[gd_scene load_steps=2 format=3 uid="uid://c5uf675n3ccnt"]
 
-[ext_resource type="Script" path="res://Scripts/PPLSplitWorkoutPlan.gd" id="1_8okhs"]
 [ext_resource type="PackedScene" uid="uid://c1eskhdl6vgfg" path="res://ui/logo-mini.tscn" id="2_eagf3"]
 
 [node name="4DayWP" type="Control"]
 layout_mode = 3
 anchors_preset = 0
-script = ExtResource("1_8okhs")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 layer = -128
