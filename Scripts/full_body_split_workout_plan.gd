@@ -6,9 +6,9 @@ var exercises_full_body = {
 	"3. ": ["Lat pull downs", "Barbell rows", "Machine rows", "Lat pull-down"],# lat/back
 	"4. ": ["Reverse dumbbell front raise", "Single arm dumbbell row", "DB Upright row", "DB Lateral raise"],# back
 	"5. ": ["Cable lateral raise", "Shoulder press machine", "DB reverse fly", "DB shoulder press (Parallel grip)"],# rear delt?
-	"6. ": ["DB Shrug", "Face Pulls", "BB Shrug", "Single arm cable reverse fly"],# tricep
-	"7. ": ["Standing cable crunch", "Mountain climbers"],# tricep
-	"8. ": ["Plank", "Side plank", "Leg raise"],# 
+	"6. ": ["DB Shrug", "Face Pulls", "BB Shrug", "Single arm cable reverse fly"],# tricep/bi
+	"7. ": ["Standing cable crunch", "Mountain climbers"],# tricep/bi
+	"8. ": ["Plank", "Side plank", "Leg raise"],# bi/forearm?
 	"9. ": ["Leg extensions", "Lying leg curl", "Leg extension machine", "Lying hamstring curl"],
 	"10. ": ["Leg press", "Smith squats", "BB Squats", "Hack squats"] # test/ cl
 }
