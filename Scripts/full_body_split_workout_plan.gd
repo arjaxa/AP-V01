@@ -1,14 +1,14 @@
 extends Control
 
 var exercises_full_body = {
-	"1. ": ["Barbell bench press", "Incline bench press", "Dumbbell bench press", "Smith machine bench press"],
-	"2. ": ["Decline dumbbell fly", "Cable fly", "Dumbbell pullover", "Machine rows"],
-	"3. ": ["Lat pull downs", "Barbell rows", "Machine rows", "Lat pull-down"],
-	"4. ": ["Reverse dumbbell front raise", "Single arm dumbbell row", "DB Upright row", "DB Lateral raise"],
-	"5. ": ["Cable lateral raise", "Shoulder press machine", "DB reverse fly", "DB shoulder press (Parallel grip)"],
-	"6. ": ["DB Shrug", "Face Pulls", "BB Shrug", "Single arm cable reverse fly"],
-	"7. ": ["Standing cable crunch", "Mountain climbers"],
-	"8. ": ["Plank", "Side plank", "Leg raise"],
+	"1. ": ["Barbell bench press", "Incline bench press", "Dumbbell bench press", "Smith machine bench press"],# lat
+	"2. ": ["Decline dumbbell fly", "Cable fly", "Dumbbell pullover", "Machine rows"],# lat
+	"3. ": ["Lat pull downs", "Barbell rows", "Machine rows", "Lat pull-down"],# lat/back
+	"4. ": ["Reverse dumbbell front raise", "Single arm dumbbell row", "DB Upright row", "DB Lateral raise"],# back
+	"5. ": ["Cable lateral raise", "Shoulder press machine", "DB reverse fly", "DB shoulder press (Parallel grip)"],# rear delt?
+	"6. ": ["DB Shrug", "Face Pulls", "BB Shrug", "Single arm cable reverse fly"],# tricep
+	"7. ": ["Standing cable crunch", "Mountain climbers"],# tricep
+	"8. ": ["Plank", "Side plank", "Leg raise"],# 
 	"9. ": ["Leg extensions", "Lying leg curl", "Leg extension machine", "Lying hamstring curl"],
 	"10. ": ["Leg press", "Smith squats", "BB Squats", "Hack squats"] # test/ cl
 }
