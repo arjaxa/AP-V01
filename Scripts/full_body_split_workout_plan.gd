@@ -10,7 +10,7 @@ var exercises_full_body = {
 	"7. ": ["Standing cable crunch", "Mountain climbers"],
 	"8. ": ["Plank", "Side plank", "Leg raise"],
 	"9. ": ["Leg extensions", "Lying leg curl", "Leg extension machine", "Lying hamstring curl"],
-	"10. ": ["Leg press", "Smith squats", "BB Squats", "Hack squats"] # random placeholders/change later
+	"10. ": ["Leg press", "Smith squats", "BB Squats", "Hack squats"] # test/ cl
 }
 
 # sets/reps
