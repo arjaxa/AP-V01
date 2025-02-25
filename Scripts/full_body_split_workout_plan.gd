@@ -1,7 +1,7 @@
 extends Control
 
 var exercises_full_body = {
-	"1. ": ["test"],# lat
+	"1. ": ["Lat pulldown", "alternative lat pulldown", "BB Row (reversed grip)", "BB Row", "Lat pulldown (Short grip)"],# lat
 	"2. ": ["Decline dumbbell fly", "Cable fly", "Dumbbell pullover", "Machine rows"],# lat
 	"3. ": ["Lat pull downs", "Barbell rows", "Machine rows", "Lat pull-down"],# lat/back
 	"4. ": ["Reverse dumbbell front raise", "Single arm dumbbell row", "DB Upright row", "DB Lateral raise"],# back
